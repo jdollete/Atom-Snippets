@@ -6,38 +6,65 @@
     'prefix': 'React'
     'body': """
       React.createClass({
-        getDefaultProps: function() {
-          return {
-
-          };
-        },
-
-        getInitialState: function() {
-          return {
-
-          };
-        },
-
-        componentWillReceiveProps: function(nextProps) {
-
-        },
-
-        shouldComponentUpdate: function(nextProps, nextState) {
-
-        },
-
-        componentWillUpdate: function() {
-
-        },
+        // React Lifecycle:
+        // getDefaultProps
+        // getInitialState
+        // componentWillReceiveProps
+        // shouldComponentUpdate
+        // componentWillUpdate
+        // render
+        // componentDidUpdate
 
         render: function() {
           return (
 
           );
-        },
-
-        componentDidUpdate: function() {
-
         }
-      });
+      });      
+    """
+  'getDefaultProps':
+    'prefix': 'getDefaultProps'
+    'body': """
+      getDefaultProps: function() {
+        return {
+
+        };
+      },
+    """
+  'getInitialState':
+    'prefix': 'getInitialState'
+    'body': """
+      getInitialState: function() {
+        return {
+
+        };
+      },
+    """
+  'componentWillReceiveProps':
+    'prefix': 'componentWillReceiveProps'
+    'body': """
+      componentWillReceiveProps: function(nextProps) {
+
+      },
+    """
+  'shouldComponentUpdate':
+    'prefix': 'shouldComponentUpdate'
+    'body': """
+      shouldComponentUpdate: function(nextProps, nextState) {
+
+      },
+    """
+  'componentWillUpdate':
+    'prefix': 'componentWillUpdate'
+    'body': """
+      componentWillUpdate: function() {
+
+      },
+    """
+  'componentDidUpdate':
+    'prefix': 'componentDidUpdate'
+    'body': """
+      componentDidUpdate: function() {
+
+      }
     """
